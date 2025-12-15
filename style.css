@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #ff5722;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    background: #ffe0b2;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.step {
+    background: #f4f4f4;
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 5px solid #ff5722;
+}
+
+#tips ul {
+    list-style: none;
+    padding: 0;
+}
+
+#tips li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
